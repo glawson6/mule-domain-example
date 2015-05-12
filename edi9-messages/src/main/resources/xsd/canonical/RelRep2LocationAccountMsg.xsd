@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by Shannon Brooks (Manheim Auctions) -->
+<xs:schema xmlns:cs="http://www.manheim.com/2009/01/CustSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.manheim.com/2009/01/CustSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="ControlAreaType.xsd"/>
+	<xs:include schemaLocation="RelRep2LocationAccountType.xsd"/>
+	<xs:element name="RelRep2LocationAccountMsg">
+		<xs:annotation>
+			<xs:documentation>A representation of the relationship between a Rep and Manheim.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ControlArea" type="cs:ControlAreaType"/>
+				<xs:element name="RelRep2LocationAccount" type="cs:RelRep2LocationAccountType"/>
+				<xs:any namespace="##other" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

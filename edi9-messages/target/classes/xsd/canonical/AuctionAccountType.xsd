@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by Tao Song (Manheim Auctions) -->
+<xs:schema xmlns:cs="http://www.manheim.com/2009/01/CustSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.manheim.com/2009/01/CustSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="LocationAccountType.xsd"/>
+	<xs:include schemaLocation="PostalAddressType.xsd"/>
+	<xs:include schemaLocation="ElectronicAddressType.xsd"/>
+	<xs:include schemaLocation="TelecomNumberType.xsd"/>
+	<xs:include schemaLocation="ManheimDemoTypes.xsd"/>
+	<xs:include schemaLocation="GlobalDemoTypes.xsd"/>
+	<xs:include schemaLocation="AccountAssociationType.xsd"/>
+	<xs:complexType name="AuctionAccountType">
+		<xs:sequence>
+			<xs:element name="SystemKeys" type="cs:SystemKeysType"/>
+			<xs:element name="action" type="cs:actionCode" minOccurs="0"/>
+			<xs:element name="sourceDeleteIndicator" type="xs:boolean"/>
+			<xs:element name="auctionAcctNum" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="description" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="customerAccountDesignation" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="remarketingIndicator" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:boolean">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:boolean"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="publicSaleOnlyIndicator" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:boolean">
+							<xs:attribute name="setNULL" type="xs:boolean"/>
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:boolean"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="buySellCode" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="status" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="distributionCode" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="accountDbaName" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="optionCode" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="FLNDRCode" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="groupCode" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="checkIndicator" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:boolean">
+							<xs:attribute name="setNULL" type="xs:boolean"/>
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:boolean"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="legacyNULCode" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="legacyCommGroupCode" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="PostalAddress" type="cs:PostalAddressType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="ElectronicAddress" type="cs:ElectronicAddressType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="TelecomNumber" type="cs:TelecomNumberType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="LocationAccount" type="cs:LocationAccountType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="AccountAssociation" type="cs:AccountAssociationType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

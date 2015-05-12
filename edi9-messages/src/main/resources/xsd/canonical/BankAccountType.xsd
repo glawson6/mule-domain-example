@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by Shannon Brooks (Manheim Auctions) -->
+<xs:schema xmlns:cs="http://www.manheim.com/2009/01/CustSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.manheim.com/2009/01/CustSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="GlobalDemoTypes.xsd"/>
+	<xs:include schemaLocation="SystemKeysType.xsd"/>
+	<xs:include schemaLocation="PostalAddressType.xsd"/>
+	<xs:include schemaLocation="ElectronicAddressType.xsd"/>
+	<xs:include schemaLocation="TelecomNumberType.xsd"/>
+	<xs:include schemaLocation="BankType.xsd"/>
+	<xs:complexType name="BankAccountType">
+		<xs:sequence>
+			<xs:element name="SystemKeys" type="cs:SystemKeysType"/>
+			<xs:element name="action" type="cs:actionCode" minOccurs="0"/>
+			<xs:element name="sourceDeleteIndicator" type="xs:boolean"/>
+			<xs:element name="accountNumber">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="accountDescription" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="accountStatus" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="routingNumber" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:long">
+							<xs:attribute name="setNULL" type="xs:boolean"/>
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:long"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="bankAcctType" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="bankContactName" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="bankContactPhone" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="openedDate" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:date">
+							<xs:attribute name="setNULL" type="xs:boolean"/>
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:date"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="closedDate" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:date">
+							<xs:attribute name="setNULL" type="xs:boolean"/>
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:date"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="avgBalance" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="avgBalanceRange" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="nsfIndicator" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:boolean">
+							<xs:attribute name="setNULL" type="xs:boolean"/>
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:boolean"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="nsfCount" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:integer">
+							<xs:attribute name="setNULL" type="xs:boolean"/>
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:integer"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="overdraftIndicator" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:boolean">
+							<xs:attribute name="setNULL" type="xs:boolean"/>
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:boolean"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="overdraftCount" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:integer">
+							<xs:attribute name="setNULL" type="xs:boolean"/>
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:integer"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="bankOfficial" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="bankOfficialTitle" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="bankOfficialPhone" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="PostalAddress" type="cs:PostalAddressType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="ElectronicAddress" type="cs:ElectronicAddressType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="TelecomNumber" type="cs:TelecomNumberType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="Bank" type="cs:BankType"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

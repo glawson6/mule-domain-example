@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by Tao Song (Manheim Auctions) -->
+<xs:schema xmlns:cs="http://www.manheim.com/2009/01/CustSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.manheim.com/2009/01/CustSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="actionCode">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="D"/>
+			<xs:enumeration value="I"/>
+			<xs:enumeration value="U"/>
+			<xs:enumeration value="B"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="countryCodes">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-Z][A-Z][A-Z]"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="addressUseType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="MAIL"/>
+			<xs:enumeration value="PHYSICAL"/>
+			<xs:enumeration value="LEGALPHYSICAL"/>
+			<xs:enumeration value="LEGALMAIL"/>
+			<!--Mailing Address-->
+			<!--Physical Address-->
+			<!--Legal Physical Address-->
+			<!--Legal Mailing Address-->
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="electronicAddressMechType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="URL"/>
+			<xs:enumeration value="EMAIL"/>
+			<xs:enumeration value="TWIT"/>
+			<xs:enumeration value="FACE"/>
+			<xs:enumeration value="LINK"/>
+			<!--Website-->
+			<!--Email address-->
+			<!--Twitter Account-->
+			<!--Facebook Account-->
+			<!--LinkedIn Account-->
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="telecomNumberMechType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="FAX"/>
+			<xs:enumeration value="MOBILE"/>
+			<xs:enumeration value="PAGER"/>
+			<xs:enumeration value="PHONE"/>
+			<xs:enumeration value="LEGALPHONE"/>
+			<xs:enumeration value="LEGALFAX"/>
+			<xs:enumeration value="LEGALPAGER"/>
+			<xs:enumeration value="LEGALMOBILE"/>
+			<!--AuctionACCESS Phone Number-->
+			<!--AuctionACCESS Fax-->
+			<!--AuctionACCESS Pager Number-->
+			<!--AuctionACCESS Mobile Number-->
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="identifierLicenseType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="GOV"/>
+			<xs:enumeration value="STATE"/>
+			<xs:enumeration value="LOCAL"/>
+			<xs:enumeration value="DRI"/>
+			<xs:enumeration value="PST"/>
+			<xs:enumeration value="VOT"/>
+			<xs:enumeration value="MAN"/>
+			<xs:enumeration value="AA"/>
+			<xs:enumeration value="VIKGUID"/>
+			<xs:enumeration value="VIKUN"/>
+			<xs:enumeration value="VIKOTHER"/>
+			<xs:enumeration value="VIKMOL"/>
+			<xs:enumeration value="VIKMEGAKEY"/>
+			<xs:enumeration value="VIKMYACCTPMTID"/>
+			<xs:enumeration value="SFDC"/>
+			<xs:enumeration value="OVC"/>
+			<xs:enumeration value="MSC"/>
+			<xs:enumeration value="MAFS"/>
+			<xs:enumeration value="SP_LIC"/>
+			<xs:enumeration value="DLR_LIC"/>
+			<xs:enumeration value="WI_BUY_CARD_LIC"/>
+			<xs:enumeration value="MI_SVA_REP_LIC"/>
+			<xs:enumeration value="LA_BID_LIC"/>
+			<!--Identifiers-->
+			<!--State/Province ID-->
+			<!--State/Province ID-->
+			<!--Drivers License-->
+			<!--Passport-->
+			<!--Mexican Voter Registration-->
+			<!--Alt Identifiers-->
+			<!--Manheim ID-->
+			<!--AuctionACCESS-->
+			<!--Vicki GUID-->
+			<!--Vicki Username-->
+			<!--Vicki UID-->
+			<!--Vicki UniversalID Type = MOL-->
+			<!--Vicki UniversalID Type = MegaKey-->
+			<!--Vicki UniversalID Type = My Account Payment ID-->
+			<!--Salesforce.com ID-->
+			<!--Informatica Hub-->
+			<!--MSC Dealer Numbers-->
+			<!--Vicki MAFS UID-->
+			<!--Licenses-->
+			<!--Salesperson License-->
+			<!--Dealer License-->
+			<!--Wisconsin Buyer Card-->
+			<!--SVA Rep License - MI-->
+			<!--Louisana Bid License-->
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="businessTypeCode">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="DLR"/>
+			<xs:enumeration value="OTH"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="businessSubTypeCode">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="DLR"/>
+			<xs:enumeration value="FTY"/>
+			<xs:enumeration value="BNK"/>
+			<xs:enumeration value="CPF"/>
+			<xs:enumeration value="FLT"/>
+			<xs:enumeration value="REN"/>
+			<xs:enumeration value="LEA"/>
+			<xs:enumeration value="INS"/>
+			<xs:enumeration value="TLN"/>
+			<xs:enumeration value="GOV"/>
+			<xs:enumeration value="NON"/>
+			<xs:enumeration value="RET"/>
+			<xs:enumeration value="AUC"/>
+			<xs:enumeration value="GRP"/>
+			<xs:enumeration value="WHS"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="generationID">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Jr."/>
+			<xs:enumeration value="Sr."/>
+			<xs:enumeration value="II"/>
+			<xs:enumeration value="III"/>
+			<xs:enumeration value="IV"/>
+			<xs:enumeration value="The Second"/>
+			<xs:enumeration value="The Third"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="legalFormType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="BUS"/>
+			<xs:enumeration value="SOLE"/>
+			<xs:enumeration value="LLC"/>
+			<xs:enumeration value="GEN"/>
+			<xs:enumeration value="LIM_PAR"/>
+			<xs:enumeration value="SUB_C"/>
+			<xs:enumeration value="UNLI"/>
+			<!--Business Corporation-->
+			<!--Sole Proprietorship-->
+			<!--Limited Liability Company-->
+			<!--General Partnership-->
+			<!--Limited Partnership-->
+			<!--Sub C Corporation-->
+			<!--Unlimited Liability Corporation-->
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="segmentationCategoryType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="NUL"/>
+			<xs:enumeration value="FLNDR"/>
+			<xs:enumeration value="RELTYP"/>
+			<xs:enumeration value="DLRTYP"/>
+			<xs:enumeration value="SFDCDLRFLEETTYP"/>
+			<xs:enumeration value="INSTTYP"/>
+			<xs:enumeration value="CUSTSEGSCORE"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="msgTypeCode">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="CompanyMsg"/>
+			<xs:enumeration value="RepMsg"/>
+			<xs:enumeration value="CustomerGroupMsg"/>
+			<xs:enumeration value="EmployeeMsg"/>
+			<xs:enumeration value="NameplateMsg"/>
+			<xs:enumeration value="SalesTerritoryMsg"/>
+			<xs:enumeration value="RelCompany2RepMsg"/>
+			<xs:enumeration value="RelCustGrp2CompanyMsg"/>
+			<xs:enumeration value="RelRep2AuctionAccountMsg"/>
+			<xs:enumeration value="RelRep2LocationAccountMsg"/>
+			<xs:enumeration value="RelRep2FloorPlanAccountMsg"/>
+			<xs:enumeration value="RelRep2BankAccountMsg"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="acctStatusCodeType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="A"/>
+			<xs:enumeration value="I"/>
+			<xs:enumeration value="U"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="titleType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Mr."/>
+			<xs:enumeration value="Mrs."/>
+			<xs:enumeration value="Miss"/>
+			<xs:enumeration value="Dr."/>
+			<xs:enumeration value="Ms."/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
+

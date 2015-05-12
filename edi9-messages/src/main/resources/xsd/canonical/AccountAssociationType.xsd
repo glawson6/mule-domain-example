@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by Tao Song (Manheim Auctions) -->
+<xs:schema xmlns:cs="http://www.manheim.com/2009/01/CustSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.manheim.com/2009/01/CustSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="SystemKeysType.xsd"/>
+	<xs:include schemaLocation="GlobalDemoTypes.xsd"/>
+	<xs:complexType name="AccountAssociationType">
+		<xs:sequence>
+			<xs:element name="SystemKeys" type="cs:SystemKeysType"/>
+			<xs:element name="action" type="cs:actionCode" minOccurs="0"/>
+			<xs:element name="sourceDeleteIndicator" type="xs:boolean"/>
+			<xs:element name="acctAssocType">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="acctAssocCode">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

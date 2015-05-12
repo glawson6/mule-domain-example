@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by Shannon Brooks (Manheim Auctions) -->
+<xs:schema xmlns:cs="http://www.manheim.com/2009/01/CustSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.manheim.com/2009/01/CustSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="ControlAreaType.xsd"/>
+	<xs:include schemaLocation="CompanyType.xsd"/>
+	<xs:element name="CompanyMsg">
+		<xs:annotation>
+			<xs:documentation>A representation of the organizations that conduct formal revenue generating business transactions with Manheim.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ControlArea" type="cs:ControlAreaType"/>
+				<xs:element name="Company" type="cs:CompanyType"  minOccurs="1" maxOccurs="1"/>
+				<xs:any namespace="##other" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by Shannon Brooks (Manheim Auctions) -->
+<xs:schema xmlns:cs="http://www.manheim.com/2009/01/CustSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.manheim.com/2009/01/CustSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="IndividualType.xsd"/>
+	<xs:include schemaLocation="CompanyRelationshipType.xsd"/>
+	<xs:include schemaLocation="SalesTerritoryRelationshipType.xsd"/>
+	<xs:include schemaLocation="GlobalDemoTypes.xsd"/>
+	<xs:include schemaLocation="SystemKeysType.xsd"/>
+	<xs:complexType name="EmployeeType">
+		<xs:annotation>
+			<xs:documentation>Type for a employee of Manheim.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="SystemKeys" type="cs:SystemKeysType"/>
+			<xs:element name="action" type="cs:actionCode" minOccurs="0"/>
+			<xs:element name="sourceDeleteIndicator" type="xs:boolean"/>
+			<xs:element name="region" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="territory" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="marketName" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="teamName" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="jobTitle" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="changed" type="xs:boolean" use="required"/>
+							<xs:attribute name="previousValue" type="xs:string"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Individual" type="cs:IndividualType"/>
+			<xs:element name="CompanyRelationship" type="cs:CompanyRelationshipType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="SalesTerritoryRelationship" type="cs:SalesTerritoryRelationshipType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

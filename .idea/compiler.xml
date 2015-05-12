@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="edi-aggregation-process" />
+        <module name="edi-status-change-process" />
+        <module name="edi9-common" />
+        <module name="edi9-domain-domain (1) (com.cox.automotive.edi9.bundle)" />
+        <module name="edi9-domain-domain (2) (com.cox.automotive.edi9)" />
+        <module name="edi9-messages" />
+        <module name="mule-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cci-flow" target="1.7" />
+      <module name="con-flow" target="1.7" />
+      <module name="edi-aggregation-process" target="1.7" />
+      <module name="edi-status-change-process" target="1.7" />
+      <module name="edi9-common" target="1.7" />
+      <module name="edi9-domain-domain (2) (com.cox.automotive.edi9)" target="1.7" />
+      <module name="edi9-messages" target="1.7" />
+      <module name="misc-flow" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 rel. 2 sp2 (http://www.altova.com) by Ben Bullock (Manheim) -->
+<xs:schema xmlns:cs="http://www.manheim.com/2009/01/CustSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.manheim.com/2009/01/CustSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="locationAcctStatusCodeType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="A"/>
+			<xs:enumeration value="I"/>
+			<xs:enumeration value="U"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="buySellCode">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Buy"/>
+			<xs:enumeration value="Sell"/>
+			<xs:enumeration value="Both"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="optionCodeType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value=""/>
+			<xs:enumeration value="A"/>
+			<xs:enumeration value="B"/>
+			<xs:enumeration value="C"/>
+			<xs:enumeration value="D"/>
+			<xs:enumeration value="E"/>
+			<xs:enumeration value="F"/>
+			<xs:enumeration value="G"/>
+			<xs:enumeration value="H"/>
+			<xs:enumeration value="I"/>
+			<xs:enumeration value="J"/>
+			<xs:enumeration value="K"/>
+			<xs:enumeration value="L"/>
+			<xs:enumeration value="M"/>
+			<xs:enumeration value="N"/>
+			<xs:enumeration value="O"/>
+			<xs:enumeration value="P"/>
+			<xs:enumeration value="Q"/>
+			<xs:enumeration value="R"/>
+			<xs:enumeration value="X"/>
+			<xs:enumeration value="Y"/>
+			<!-- no restrictions -->
+			<!-- collection only -->
+			<!-- no drafts accepted -->
+			<!-- cash only -->
+			<!-- don't hold checks -->
+			<!-- no checks permited -->
+			<!-- may not buy -->
+			<!-- may be title attached -->
+			<!-- buy cash, no sell -->
+			<!-- give paper to ... -->
+			<!-- checks OK, no sell -->
+			<!-- OK to release title -->
+			<!-- release title/no drafts -->
+			<!-- export only -->
+			<!-- floor plan -->
+			<!-- export only, cash -->
+			<!-- print 'signiture on file' on buyer's draft -->
+			<!-- drafts only -->
+			<!-- hold titles for ten days; pay with check -->
+			<!-- amount due OR "OK to pay" permitted -->
+			<!-- amount due, no charge -->
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="custBusAcctStatus">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Satisfactory"/>
+			<xs:enumeration value="Unsatisfactory"/>
+			<xs:enumeration value="Closed"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="custBusAcctType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Floorplan Credit"/>
+			<xs:enumeration value="Bank Credit"/>
+			<xs:enumeration value="Insurance"/>
+			<xs:enumeration value="Bonding"/>
+			<xs:enumeration value="Checking"/>
+			<xs:enumeration value="Saving"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="FLNDRcodeType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="D"/>
+			<xs:enumeration value="F"/>
+			<xs:enumeration value="L"/>
+			<xs:enumeration value="N"/>
+			<xs:enumeration value="R"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="NULcodeType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="L"/>
+			<xs:enumeration value="N"/>
+			<xs:enumeration value="U"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="mafsProductCode">
+		<xs:annotation>
+			<xs:documentation>MAFS: Product Code for MAFS Wholesale and Commercial Accounts.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="45SP"/>
+			<xs:enumeration value="90D"/>
+			<xs:enumeration value="RCV"/>
+			<xs:enumeration value="RVP"/>
+			<xs:enumeration value="RNT"/>
+			<xs:enumeration value="TRK"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="systemCode">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="VIK"/>
+			<xs:enumeration value="MSC"/>
+			<xs:enumeration value="AA"/>
+			<xs:enumeration value="SF"/>
+			<xs:enumeration value="OVC"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by Shannon Brooks (Manheim Auctions) -->
+<xs:schema xmlns:cs="http://www.manheim.com/2009/01/CustSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.manheim.com/2009/01/CustSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="ThirdPartyAccountRelationshipType.xsd"/>
+	<xs:include schemaLocation="SystemKeysType.xsd"/>
+	<xs:complexType name="RelRep2BankAccountType">
+		<xs:sequence>
+			<xs:element name="repId" type="cs:SystemKeysType"/>
+			<xs:element name="BankAccountRelationship" type="cs:ThirdPartyAccountRelationshipType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by Charles Redden (AutoTec, LLC) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:include schemaLocation="../Header9.xsd"/>
+	<xs:annotation>
+		<xs:documentation>Company Third Party Remarketing Message contains information on an entity's third party remarketing relationships.  Note this is an independent message from the COM message and will not always be sent with an accompanying COM message.  The Entity ID in the header will contain the ID of the Third Party Remarketing relationship.  The PrimaryMember and SecondaryMember values should be used to identify the companies to which the CTR should be connected.  The same CTR may be sent for either the Primary or Secondary members.</xs:documentation>
+	</xs:annotation>
+	<xs:element name="ListingName">
+		<xs:annotation>
+			<xs:documentation>Association's listing or alias name.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="50"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Message">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Header"/>
+				<xs:element ref="TPRInformation" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="PatternID" type="xs:int">
+		<xs:annotation>
+			<xs:documentation>AutoTec Third Party Remarketing Pattern ID</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="PatternName">
+		<xs:annotation>
+			<xs:documentation>Association's listing or alias name.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="50"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="PrimaryMember">
+		<xs:annotation>
+			<xs:documentation>The AutoTec id of the company who is acting as a seller in a Third Party Remarketing relationship.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:int">
+				<xs:maxInclusive value="8999999"/>
+				<xs:minInclusive value="5000000"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="SecondaryMember">
+		<xs:annotation>
+			<xs:documentation>The AutoTec id of the company who is acting as a buyer in a Third Party Remarketing relationship.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:int">
+				<xs:maxInclusive value="8999999"/>
+				<xs:minInclusive value="5000000"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="ThirdPartyRemarketingID" type="xs:int">
+		<xs:annotation>
+			<xs:documentation>AutoTec Third Party Remarketing ID</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="TPRInformation">
+		<xs:annotation>
+			<xs:documentation>Repeats for each Third Party Remarketing Relationship the company belongs to</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ThirdPartyRemarketingID"/>
+				<xs:element ref="ListingName" minOccurs="0"/>
+				<xs:element ref="PrimaryMember"/>
+				<xs:element ref="SecondaryMember"/>
+				<xs:element ref="Visibility"/>
+				<xs:element ref="PatternID" minOccurs="0"/>
+				<xs:element ref="PatternName" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Visibility">
+		<xs:annotation>
+			<xs:documentation>Indicates permission level of who can view the Third Party Remarketing Relationship information</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Customer"/>
+				<xs:enumeration value="Group"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+</xs:schema>

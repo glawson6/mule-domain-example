@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by Charles Redden (AutoTec, LLC) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:include schemaLocation="../Header9.xsd"/>
+	<xs:annotation>
+		<xs:documentation>Identification Message contains licensing information for the entity as issued by a country, state, or province.  This message will not always be accompanied by its parent Company or Individual message.  The EntityID and EntityType should be used to associate the data in this message with the appropriate parent  information.</xs:documentation>
+	</xs:annotation>
+	<xs:element name="ATMaintainedLicense">
+		<xs:annotation>
+			<xs:documentation>Indicates whether AutoTec electronically obtains and updates license information.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Y"/>
+				<xs:enumeration value="N"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Country">
+		<xs:annotation>
+			<xs:documentation>Issuing Country of Identity information.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="50"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="EntityInformation">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="EntityID"/>
+				<xs:element ref="EntityType"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="EntityRestriction">
+		<xs:annotation>
+			<xs:documentation>ID of an additional restriction to a specific entity on the Issue.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="[0-9]{1,10}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="EntityType">
+		<xs:annotation>
+			<xs:documentation>Indicates kind of entity in message.  Note: The EntityType enumerations are consistent across all messages. The only values that pertain to this message are: Dealership, Commercial Account, and Person.  Transporter is a future enhancement and may or may not be relevant to this message in the future.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Dealership"/>
+				<xs:enumeration value="Transporter"/>
+				<xs:enumeration value="Commercial Account"/>
+				<xs:enumeration value="Company Association"/>
+				<xs:enumeration value="Person"/>
+				<xs:enumeration value="Bank"/>
+				<xs:enumeration value="Bank Account"/>
+				<xs:enumeration value="Third Party Remarketing"/>
+				<xs:enumeration value="Customer Customization"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="ExpirationDate">
+		<xs:annotation>
+			<xs:documentation>Expiration date of Identity information.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:union memberTypes="xs:date">
+				<xs:simpleType>
+					<xs:restriction base="xs:token">
+						<xs:enumeration value=""/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:union>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Franchise">
+		<xs:annotation>
+			<xs:documentation>Indicates franchise type for license.  Not all Franchise licenses will carry a type.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="50"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="FranchiseInformation">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="FranchiseTypes" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="FranchiseTypes">
+		<xs:annotation>
+			<xs:documentation>Contains franchise types applicable to a specific license.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Franchise" minOccurs="0"/>
+				<xs:element ref="Removed" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="IdentificationInformation">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="IDType"/>
+				<xs:element ref="IDNumber"/>
+				<xs:element ref="IssueDate" minOccurs="0"/>
+				<xs:element ref="ExpirationDate" minOccurs="0"/>
+				<xs:element ref="State"/>
+				<xs:element ref="Country"/>
+				<xs:element ref="EntityRestriction" minOccurs="0"/>
+				<xs:element ref="ATMaintainedLicense" minOccurs="0"/>
+				<xs:element ref="FranchiseInformation" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="IDNumber">
+		<xs:annotation>
+			<xs:documentation>ID number for corresponding ID Type.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="50"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="IDType">
+		<xs:annotation>
+			<xs:documentation>Indicates License Type for child elements.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Airplane License"/>
+				<xs:enumeration value="ATV License"/>
+				<xs:enumeration value="Boat License"/>
+				<xs:enumeration value="Business License"/>
+				<xs:enumeration value="Dealer License"/>
+				<xs:enumeration value="Dealer Master Tag"/>
+				<xs:enumeration value="Drivers License"/>
+				<xs:enumeration value="Franchise License"/>
+				<xs:enumeration value="International Alternate Licensing Document"/>
+				<xs:enumeration value="International License"/>
+				<xs:enumeration value="Lease License"/>
+				<xs:enumeration value="Louisiana Bid License"/>
+				<xs:enumeration value="Mexican Merchant Card"/>
+				<xs:enumeration value="Mexican Voter Registration"/>
+				<xs:enumeration value="Mobile Home License"/>
+				<xs:enumeration value="Mobile Home Salesperson License"/>
+				<xs:enumeration value="Motorcycle License"/>
+				<xs:enumeration value="Off Road Dealer License"/>
+				<xs:enumeration value="Out of State Dealer License"/>
+				<xs:enumeration value="Out-of-Prov Exemption"/>
+				<xs:enumeration value="Parts License"/>
+				<xs:enumeration value="Passport"/>
+				<xs:enumeration value="Rental License"/>
+				<xs:enumeration value="Retail License"/>
+				<xs:enumeration value="RV License"/>
+				<xs:enumeration value="Sales Tax Certificate"/>
+				<xs:enumeration value="Salesperson License"/>
+				<xs:enumeration value="Salvage License"/>
+				<xs:enumeration value="Salvage Salesperson License"/>
+				<xs:enumeration value="Secondary ID"/>
+				<xs:enumeration value="Snowmobile License"/>
+				<xs:enumeration value="State / Province ID"/>
+				<xs:enumeration value="SVA Rep License"/>
+				<xs:enumeration value="Temporary Photo ID"/>
+				<xs:enumeration value="Trailer License"/>
+				<xs:enumeration value="Visa-Border Crossing Card"/>
+				<xs:enumeration value="Watercraft Salesperson License"/>
+				<xs:enumeration value="Wholesale License"/>
+				<xs:enumeration value="Wisconsin Buyer Card"/>
+				<xs:enumeration value="Wisconsin Salvage Buyer Card"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="IssueDate">
+		<xs:annotation>
+			<xs:documentation>Effective date of Identity information.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:union memberTypes="xs:date">
+				<xs:simpleType>
+					<xs:restriction base="xs:token">
+						<xs:enumeration value=""/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:union>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Message">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Header"/>
+				<xs:element ref="EntityInformation"/>
+				<xs:element ref="IdentificationInformation" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Removed">
+		<xs:annotation>
+			<xs:documentation>Indicates whether a Franchise Type has been removed from a Franchise License. If the FranchiseType element is present, this field will always be populated with a value.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Y"/>
+				<xs:enumeration value="N"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="State">
+		<xs:annotation>
+			<xs:documentation>Issuing State or province of the Identity information.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="50"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+</xs:schema>

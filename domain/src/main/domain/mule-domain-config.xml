@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mule-domain xmlns="http://www.mulesoft.org/schema/mule/domain"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:jms="http://www.mulesoft.org/schema/mule/jms"
+             xmlns:spring="http://www.springframework.org/schema/beans"
+             xmlns:amq="http://activemq.apache.org/schema/core"
+             xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+               http://www.mulesoft.org/schema/mule/domain http://www.mulesoft.org/schema/mule/domain/current/mule-domain.xsd
+               http://www.mulesoft.org/schema/mule/jms http://www.mulesoft.org/schema/mule/jms/current/mule-jms.xsd
+                http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core-5.11.0.xsd">
+
+    <spring:beans>
+        <spring:bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" >
+            <spring:property name="locations">
+                <spring:list>
+                    <spring:value>classpath:domain.properties</spring:value>
+                    <spring:value>classpath:database.properties</spring:value>
+                </spring:list>
+            </spring:property>
+        </spring:bean>
+        <spring:import resource="classpath:config/dev/activemq-embedded.xml"/>
+    </spring:beans>
+
+    <!--
+<vm:connector name="persistentVmConnector" queueTimeout="1000" >
+    <queue-profile maxOutstandingMessages="100" persistent="true"/>
+</vm:connector> -->
+</mule-domain>

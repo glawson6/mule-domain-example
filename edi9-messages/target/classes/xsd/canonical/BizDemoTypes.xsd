@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by Gopal Iyer (GHI Consulting) -->
+<xs:schema xmlns:cs="http://www.manheim.com/2009/01/CustSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.manheim.com/2009/01/CustSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="issueClass">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Global"/>
+			<xs:enumeration value="Manheim"/>
+			<xs:enumeration value="OpLoc"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="indivAffiliationType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Driver"/>
+			<xs:enumeration value="Officer"/>
+			<xs:enumeration value="Rep"/>
+			<xs:enumeration value="Owner"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="vehicleType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="AUT"/>
+			<xs:enumeration value="MOT"/>
+			<xs:enumeration value="MOP"/>
+			<xs:enumeration value="RV"/>
+			<xs:enumeration value="MOB"/>
+			<xs:enumeration value="TRA"/>
+			<xs:enumeration value="MOT_OR"/>
+			<xs:enumeration value="ATV"/>
+			<xs:enumeration value="SNO"/>
+			<xs:enumeration value="HEA"/>
+			<xs:enumeration value="BOA"/>
+			<xs:enumeration value="PER"/>
+			<xs:enumeration value="AIR"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="franCode">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="FORD"/>
+			<xs:enumeration value="LINC"/>
+			<xs:enumeration value="MERC"/>
+			<xs:enumeration value="ACUR"/>
+			<xs:enumeration value="BUIC"/>
+			<xs:enumeration value="CADI"/>
+			<xs:enumeration value="CHEV"/>
+			<xs:enumeration value="CHRY"/>
+			<xs:enumeration value="DODG"/>
+			<xs:enumeration value="GMC"/>
+			<xs:enumeration value="HOND"/>
+			<xs:enumeration value="JAGU"/>
+			<xs:enumeration value="JEEP"/>
+			<xs:enumeration value="LNDR"/>
+			<xs:enumeration value="LEXS"/>
+			<xs:enumeration value="LINC"/>
+			<xs:enumeration value="MAZD"/>
+			<xs:enumeration value="OLDS"/>
+			<xs:enumeration value="PLYM"/>
+			<xs:enumeration value="PONT"/>
+			<xs:enumeration value="STRN"/>
+			<xs:enumeration value="TOY"/>
+			<xs:enumeration value="TOYT"/>
+			<xs:enumeration value="VOLV"/>
+			<xs:enumeration value="ACAT"/>
+			<xs:enumeration value="ALFA"/>
+			<xs:enumeration value="AUDI"/>
+			<xs:enumeration value="AVTI"/>
+			<xs:enumeration value="BMW"/>
+			<xs:enumeration value="MINI"/>
+			<xs:enumeration value="DAIH"/>
+			<xs:enumeration value="EGIL"/>
+			<xs:enumeration value="FDEZ"/>
+			<xs:enumeration value="EASY"/>
+			<xs:enumeration value="FERR"/>
+			<xs:enumeration value="GEO"/>
+			<xs:enumeration value="HVY"/>
+			<xs:enumeration value="HYUN"/>
+			<xs:enumeration value="INFI"/>
+			<xs:enumeration value="ISU"/>
+			<xs:enumeration value="KIA"/>
+			<xs:enumeration value="LOTU"/>
+			<xs:enumeration value="MASE"/>
+			<xs:enumeration value="MERZ"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
