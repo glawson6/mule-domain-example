@@ -1,7 +1,357 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="baa85018-71a7-47a2-9234-2df3ff614196" name="Default" comment="" />
+    <list default="true" id="baa85018-71a7-47a2-9234-2df3ff614196" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-common/src/main/java/com/cox/automotive/edi9/namespacemapper/CompanyNamespaceMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/edi9-messages.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/mule-project.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cac9/AssociationInformation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cac9/CompanyInformation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cac9/DistributionCustomer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cac9/DistributionCustomerList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cac9/Header.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cac9/Message.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cac9/ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cba9/BusinessAuthorizationInformation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cba9/CompanyInformation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cba9/DistributionCustomer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cba9/DistributionCustomerList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cba9/Header.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cba9/Message.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cba9/ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cci9/CustomerInformation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cci9/DistributionCustomer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cci9/DistributionCustomerList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cci9/EntityInformation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cci9/GeneralInformation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cci9/Header.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cci9/Message.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/cci9/ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/comp9/CommercialAccountTypeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/comp9/CompanyInformation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/comp9/CompanyTypeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/comp9/DistributionCustomer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/comp9/DistributionCustomerList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/comp9/EntityTypeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/comp9/GovernmentIDTypeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/comp9/Header.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/comp9/Message.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/comp9/ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/comp9/OutOfBusinessEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/comp9/PublicSaleOnlyEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/con9/AddressInformation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/con9/AddressTypeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/con9/AddressVisibilityEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/con9/ContactInformation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/con9/ContactLocationEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/con9/ContactTypeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/con9/DistributionCustomer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/con9/DistributionCustomerList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/con9/EntityInformation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/con9/EntityTypeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/con9/Header.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/con9/Message.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/con9/ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/con9/ReturnedMailEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/con9/TitleDestinationEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/ctr9/DistributionCustomer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/ctr9/DistributionCustomerList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/ctr9/Header.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/ctr9/Message.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/ctr9/ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/ctr9/TPRInformation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/idf9/DistributionCustomer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/idf9/DistributionCustomerList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/idf9/EntityInformation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/idf9/FranchiseInformation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/idf9/FranchiseTypes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/idf9/Header.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/idf9/IdentificationInformation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/idf9/Message.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/idf9/ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/per9/DistributionCustomer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/per9/DistributionCustomerList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/per9/Header.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/per9/Message.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/per9/ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/per9/PersonInformation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/prl9/DistributionCustomer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/prl9/DistributionCustomerList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/prl9/Header.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/prl9/Message.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/prl9/ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/prl9/PersonInformation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/prl9/RoleInformation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/AccountAssociationType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/AcctStatusCodeType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/ActionCode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/AddressUsages.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/AddressUseType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/AuctionAccountRelationshipType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/AuctionAccountType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/AuthSpecialtyType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/BankAccountType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/BankType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/BusinessSubTypeCode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/BusinessTypeCode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/BuySellCode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/CompanyMsg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/CompanyRelationshipType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/CompanyType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/ControlAreaType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/CustBusAcctStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/CustBusAcctType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/CustGrpRelationshipType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/CustomerGroupMsg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/CustomerGroupRefType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/CustomerGroupType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/ElectronicAddressMechType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/ElectronicAddressType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/EmployeeMsg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/EmployeeType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/FLNDRcodeType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/FloorPlanAccountType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/FranCode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/FranchiseRelationshipType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/GenerationID.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/IdentifierLicenseType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/IdentifierType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/IndivAffiliationType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/IndividualType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/IssueClass.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/IssueType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/KeyType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/LegalFormType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/LocationAccountRelationshipType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/LocationAccountType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/LocationAcctStatusCodeType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/MsgTypeCode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/NULcodeType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/NameplateMsg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/NameplateType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/ParentCompanyRelationshipType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/PostalAddressType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/RelCompany2RepMsg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/RelCompany2RepType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/RelCustGrp2CompanyMsg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/RelCustGrp2CompanyType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/RelRep2AuctionAccountMsg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/RelRep2AuctionAccountType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/RelRep2BankAccountMsg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/RelRep2BankAccountType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/RelRep2FloorPlanAccountMsg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/RelRep2FloorPlanAccountType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/RelRep2LocationAccountMsg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/RelRep2LocationAccountType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/RelationshipType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/RepMsg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/RepRelationshipType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/RepType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/SalesTerritoryMsg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/SalesTerritoryRelationshipType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/SalesTerritoryType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/SalesZipType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/SegmentationCategoryType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/SegmentationType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/SystemCode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/SystemKeysType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/TelecomNumberMechType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/TelecomNumberType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/ThirdPartyAccountRelationshipType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/TitleType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/VehicleType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/outbound/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/AccountAssociationType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/AddressUsages.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/AuctionAccountRelationshipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/AuctionAccountType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/AuthSpecialtyType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/BankAccountType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/BankType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/BizDemoTypes.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/CompanyMsg.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/CompanyMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/CompanyRelationshipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/CompanyType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/ControlAreaType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/CustGrpRelationshipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/CustomerGroupMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/CustomerGroupRefType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/CustomerGroupType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/ElectronicAddressType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/EmployeeMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/EmployeeType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/FloorPlanAccountType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/FranchiseRelationshipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/GlobalDemoTypes.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/IdentifierType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/IndividualType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/IssueType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/KeyType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/LocationAccountRelationshipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/LocationAccountType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/ManheimDemoTypes.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/NameplateMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/NameplateType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/ParentCompanyRelationshipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/PostalAddressType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/RelCompany2RepMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/RelCompany2RepType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/RelCustGrp2CompanyMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/RelCustGrp2CompanyType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/RelRep2AuctionAccountMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/RelRep2AuctionAccountType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/RelRep2BankAccountMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/RelRep2BankAccountType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/RelRep2FloorPlanAccountMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/RelRep2FloorPlanAccountType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/RelRep2LocationAccountMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/RelRep2LocationAccountType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/RelationshipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/RepMessagePartial.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/RepMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/RepMsg_CompanyMsg.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/RepRelationshipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/RepType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/SalesTerritoryMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/SalesTerritoryRelationshipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/SalesTerritoryType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/SalesZipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/SegmentationType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/SystemKeysType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/TelecomNumberType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/ThirdPartyAccountRelationshipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Cac9/CAC9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Cba9/CBA9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Cci9/CCI9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Comp9/COMP9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Comp9/binding.xjb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Con9/CON9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Con9/binding.xjb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Con9/con9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Ctr9/CTR9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Header9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Idf9/IDF9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Iss/ISS9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Iss/ISS_In.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Per9/Per9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Prl9/PRL9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/AccountAssociationType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/AddressUsages.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/AuctionAccountRelationshipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/AuctionAccountType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/AuthSpecialtyType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/BankAccountType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/BankType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/BizDemoTypes.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/CompanyMsg.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/CompanyMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/CompanyRelationshipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/CompanyType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/ControlAreaType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/CustGrpRelationshipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/CustomerGroupMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/CustomerGroupRefType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/CustomerGroupType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/ElectronicAddressType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/EmployeeMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/EmployeeType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/FloorPlanAccountType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/FranchiseRelationshipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/GlobalDemoTypes.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/IdentifierType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/IndividualType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/IssueType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/KeyType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/LocationAccountRelationshipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/LocationAccountType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/ManheimDemoTypes.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/NameplateMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/NameplateType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/ParentCompanyRelationshipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/PostalAddressType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/RelCompany2RepMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/RelCompany2RepType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/RelCustGrp2CompanyMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/RelCustGrp2CompanyType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/RelRep2AuctionAccountMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/RelRep2AuctionAccountType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/RelRep2BankAccountMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/RelRep2BankAccountType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/RelRep2FloorPlanAccountMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/RelRep2FloorPlanAccountType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/RelRep2LocationAccountMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/RelRep2LocationAccountType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/RelationshipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/RepMessagePartial.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/RepMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/RepMsg_CompanyMsg.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/RepRelationshipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/RepType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/SalesTerritoryMsg.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/SalesTerritoryRelationshipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/SalesTerritoryType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/SalesZipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/SegmentationType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/SystemKeysType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/TelecomNumberType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/canonical/ThirdPartyAccountRelationshipType.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/inbound/Cac9/CAC9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/inbound/Cba9/CBA9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/inbound/Cci9/CCI9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/inbound/Comp9/COMP9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/inbound/Comp9/binding.xjb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/inbound/Con9/CON9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/inbound/Con9/binding.xjb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/inbound/Con9/con9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/inbound/Ctr9/CTR9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/inbound/Header9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/inbound/Idf9/IDF9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/inbound/Iss/ISS9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/inbound/Iss/ISS_In.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/inbound/Per9/Per9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/classes/xsd/inbound/Prl9/PRL9.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/jaxb2/.xjc-schema-Cac9-xjcStaleFlag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/jaxb2/.xjc-schema-Cba9-xjcStaleFlag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/jaxb2/.xjc-schema-Cci9-xjcStaleFlag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/jaxb2/.xjc-schema-Comp9-xjcStaleFlag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/jaxb2/.xjc-schema-Con9-xjcStaleFlag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/jaxb2/.xjc-schema-Ctr9-xjcStaleFlag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/jaxb2/.xjc-schema-Idf9-xjcStaleFlag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/jaxb2/.xjc-schema-PRL9-xjcStaleFlag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/jaxb2/.xjc-schema-Per9-xjcStaleFlag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/jaxb2/.xjc-schema-canonical-xjcStaleFlag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edi9-messages/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/domain-bundle/edi9-domain-domain (1) (com.cox.automotive.edi9.bundle).iml" afterPath="$PROJECT_DIR$/domain-bundle/domain-bundle.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/domain/edi9-domain-domain (2) (com.cox.automotive.edi9).iml" afterPath="$PROJECT_DIR$/domain/domain.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/edi9-common/edi9-common.iml" afterPath="$PROJECT_DIR$/domain-common/domain-common.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/edi9-common/pom.xml" afterPath="$PROJECT_DIR$/domain-common/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/edi9-common/src/main/java/com/cox/automotive/edi9/util/BouncyCastleProviderAESCBC.java" afterPath="$PROJECT_DIR$/domain-common/src/main/java/com/cox/automotive/edi9/util/BouncyCastleProviderAESCBC.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/edi9-common/src/main/java/com/cox/automotive/edi9/util/ManheimEncryptor.java" afterPath="$PROJECT_DIR$/domain-common/src/main/java/com/cox/automotive/edi9/util/ManheimEncryptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/edi9-common/src/main/java/com/cox/automotive/edi9/util/PasswordDeriveBytes.java" afterPath="$PROJECT_DIR$/domain-common/src/main/java/com/cox/automotive/edi9/util/PasswordDeriveBytes.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/edi9-common/src/main/java/com/cox/automotive/edi9/vo/IncomingMessageVO.java" afterPath="$PROJECT_DIR$/domain-common/src/main/java/com/cox/automotive/edi9/vo/IncomingMessageVO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/edi9-common/src/main/java/com/cox/automotive/edi9/vo/ProvinceMapping.java" afterPath="$PROJECT_DIR$/domain-common/src/main/java/com/cox/automotive/edi9/vo/ProvinceMapping.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/edi9-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/domain-common/target/maven-archiver/pom.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/edi9-messages/src/main/java/com/cox/automotive/edi9/namespacemapper/CompanyNamespaceMapper.java" afterPath="$PROJECT_DIR$/domain-common/src/main/java/com/cox/automotive/edi9/namespacemapper/CompanyNamespaceMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/cci-flow/src/main/app/mule-deploy.properties" afterPath="$PROJECT_DIR$/apps/cci-flow/src/main/app/mule-deploy.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/con-flow/src/main/app/mule-deploy.properties" afterPath="$PROJECT_DIR$/apps/con-flow/src/main/app/mule-deploy.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/misc-flow/src/main/app/mule-deploy.properties" afterPath="$PROJECT_DIR$/apps/misc-flow/src/main/app/mule-deploy.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mule-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/mule-common/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/pom.xml" afterPath="$PROJECT_DIR$/apps/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain/pom.xml" afterPath="$PROJECT_DIR$/domain/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain-bundle/pom.xml" afterPath="$PROJECT_DIR$/domain-bundle/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mule-common/pom.xml" afterPath="$PROJECT_DIR$/mule-common/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="edi9-domain.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/domain-bundle/target/" />
@@ -49,53 +399,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="edi-status-change-process.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/edi-status-change-process/src/main/app/edi-status-change-process.xml">
+      <file leaf-file-name=".project" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.project">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1965">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="525">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/edi9-messages/pom.xml">
+        <entry file="file://$PROJECT_DIR$/domain-common/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1639" max-vertical-offset="5355">
-              <caret line="326" column="38" selection-start-line="326" selection-start-column="38" selection-end-line="326" selection-end-column="38" />
+            <state vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="900">
+              <caret line="12" column="53" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ComCanonicalTransformer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/edi-aggregation-process/src/main/java/com/cox/automotive/transformer/ComCanonicalTransformer.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mule-common/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1995">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edi-aggregation-process.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/edi-aggregation-process/src/main/app/edi-aggregation-process.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.7523365" vertical-offset="975" max-vertical-offset="1695">
-              <caret line="15" column="164" selection-start-line="15" selection-start-column="164" selection-end-line="15" selection-end-column="164" />
+            <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="315">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IncomingMessageVO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/edi-status-change-process/src/main/java/com/cox/automotive/vo/IncomingMessageVO.java">
+      <file leaf-file-name="mule-deploy.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/cci-flow/src/main/app/mule-deploy.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+              <caret line="0" column="46" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mule-deploy.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/con-flow/src/main/app/mule-deploy.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+              <caret line="0" column="46" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mule-deploy.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/misc-flow/src/main/app/mule-deploy.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="416">
+              <caret line="0" column="46" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.8" vertical-offset="0" max-vertical-offset="2925">
+              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/domain/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="1890">
+              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/domain-bundle/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="1950">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -104,8 +492,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1069" max-vertical-offset="1845">
-              <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.64" vertical-offset="754" max-vertical-offset="1680">
+              <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -113,31 +501,27 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$/../../../tmp/jhipster" value="7136442650000" />
+        <entry key="$PROJECT_DIR$/../../../tmp/useGrunt" value="7136445385000" />
         <entry key="$PROJECT_DIR$/../../CodeExamples/guestbook" value="1427038369000" />
         <entry key="$PROJECT_DIR$/../../SpringRuleEngine" value="1413678503000" />
         <entry key="$PROJECT_DIR$/../../mits/MITSESB" value="30761258889000" />
-        <entry key="$PROJECT_DIR$/../../ttis/spoonscore" value="5709098198000" />
-        <entry key="$PROJECT_DIR$/../../ttis/spoonscore-all" value="8563500003000" />
-        <entry key="$PROJECT_DIR$/../../ttis/tmp/helloworld" value="1426989573000" />
+        <entry key="$PROJECT_DIR$/../spoonscore" value="5709098198000" />
+        <entry key="$PROJECT_DIR$/../spoonscore-all" value="8563500003000" />
+        <entry key="$PROJECT_DIR$/../tmp/helloworld" value="1426989573000" />
         <entry key="$PROJECT_DIR$/../../wdi/homework/js/java-js-maven" value="8552486475000" />
-        <entry key="$PROJECT_DIR$/../../../tmp/jhipster" value="7136442650000" />
-        <entry key="$PROJECT_DIR$/../../../tmp/useGrunt" value="7136445385000" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/edi9-common/src/main/java/com/cox/automotive/edi9/util/BouncyCastleProviderAESCBC.java" />
-        <option value="$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/edi9-common/src/main/java/com/cox/automotive/edi9/util/PasswordDeriveBytes.java" />
-        <option value="$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/edi9-common/src/main/java/com/cox/automotive/edi9/util/ManheimEncryptor.java" />
-        <option value="$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/pom.xml" />
-        <option value="$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/edi9-common/pom.xml" />
-        <option value="$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/apps/edi-aggregation-process/src/main/java/com/cox/automotive/edi9/namespacemapper/CompanyNamespaceMapper.java" />
-        <option value="$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/apps/edi-aggregation-process/src/main/java/com/cox/automotive/transformer/ConCanonicalTransformer.java" />
         <option value="$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/apps/edi-aggregation-process/src/main/java/com/cox/automotive/transformer/GenerateCompanyCanonicalMessageTransformer.java" />
         <option value="$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/apps/edi-aggregation-process/src/main/java/com/cox/automotive/util/AggregateUtil.java" />
         <option value="$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/apps/edi-aggregation-process/src/main/app/edi-aggregation-process.xml" />
@@ -160,7 +544,6 @@
         <option value="$PROJECT_DIR$/apps/misc-flow/src/main/app/mule-config.xml" />
         <option value="$PROJECT_DIR$/apps/con-flow/src/main/app/mule-config.xml" />
         <option value="$PROJECT_DIR$/apps/cci-flow/src/main/app/mule-config.xml" />
-        <option value="$PROJECT_DIR$/mule-common/pom.xml" />
         <option value="$PROJECT_DIR$/edi9-common/src/main/java/com/cox/automotive/edi9/util/ManheimEncryptor.java" />
         <option value="$PROJECT_DIR$/apps/edi-status-change-process/pom.xml" />
         <option value="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Comp9/COMP9.xsd" />
@@ -170,18 +553,26 @@
         <option value="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Iss/ISS9.xsd" />
         <option value="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Iss/ISS_In.xsd" />
         <option value="$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Cci9/CCI9.xsd" />
-        <option value="$PROJECT_DIR$/apps/pom.xml" />
         <option value="$PROJECT_DIR$/apps/edi-status-change-process/src/main/java/com/cox/automotive/util/OvcUtil.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/apps/edi-status-change-process/src/main/app/edi-status-change-process.xml" />
         <option value="$PROJECT_DIR$/edi9-messages/.gitignore" />
-        <option value="$PROJECT_DIR$/edi9-messages/pom.xml" />
         <option value="$PROJECT_DIR$/apps/edi-aggregation-process/src/main/java/com/cox/automotive/transformer/ComCanonicalTransformer.java" />
         <option value="$PROJECT_DIR$/apps/edi-status-change-process/src/main/resources/database.properties" />
         <option value="$PROJECT_DIR$/apps/edi-status-change-process/src/main/java/com/cox/automotive/vo/IncomingMessageVO.java" />
         <option value="$PROJECT_DIR$/apps/edi-status-change-process/src/main/resources/db-config.xml" />
         <option value="$PROJECT_DIR$/apps/edi-status-change-process/src/main/resources/myEnv.sh" />
         <option value="$PROJECT_DIR$/apps/edi-aggregation-process/src/main/app/edi-aggregation-process.xml" />
+        <option value="$PROJECT_DIR$/edi9-messages/pom.xml" />
+        <option value="$PROJECT_DIR$/edi9-common/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/domain/pom.xml" />
+        <option value="$PROJECT_DIR$/domain-bundle/pom.xml" />
+        <option value="$PROJECT_DIR$/apps/pom.xml" />
+        <option value="$PROJECT_DIR$/domain-common/pom.xml" />
+        <option value="$PROJECT_DIR$/mule-common/pom.xml" />
+        <option value="$PROJECT_DIR$/apps/cci-flow/src/main/app/mule-deploy.properties" />
+        <option value="$PROJECT_DIR$/apps/con-flow/src/main/app/mule-deploy.properties" />
+        <option value="$PROJECT_DIR$/apps/misc-flow/src/main/app/mule-deploy.properties" />
       </list>
     </option>
   </component>
@@ -191,7 +582,6 @@
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="lookForNested" value="true" />
       </MavenImportingSettings>
     </option>
@@ -261,174 +651,73 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
+              <option name="myItemId" value="mule-domain-example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
+              <option name="myItemId" value="mule-domain-example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.mule:mule-core:3.6.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mule-core-3.6.1.jar" />
+              <option name="myItemId" value="mule-domain-example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
+              <option name="myItemId" value="mule-domain-example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.mule:mule-core:3.6.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mule-core-3.6.1.jar" />
+              <option name="myItemId" value="mule-domain-example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="i18n" />
+              <option name="myItemId" value="mule-common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
+              <option name="myItemId" value="mule-domain-example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.mule:mule-core:3.6.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mule-core-3.6.1.jar" />
+              <option name="myItemId" value="mule-domain-example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="transformer" />
+              <option name="myItemId" value="domain-common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
+              <option name="myItemId" value="mule-domain-example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.mule:mule-core:3.6.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mule-core-3.6.1.jar" />
+              <option name="myItemId" value="mule-domain-example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
+              <option name="myItemId" value="domain-bundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
+              <option name="myItemId" value="mule-domain-example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: com.microsoft.sqlserver:sqljdbc4:4.2.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sqljdbc4-4.2.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: com.microsoft.sqlserver:sqljdbc4:4.2.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sqljdbc4-4.2.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jdbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-messages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
+              <option name="myItemId" value="mule-domain-example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -438,15 +727,99 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
+              <option name="myItemId" value="mule-domain-example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
+              <option name="myItemId" value="mule-domain-example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mule-domain-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mule-domain-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="misc-flow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mule-domain-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mule-domain-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="misc-flow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mule-domain-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mule-domain-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="misc-flow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mule-domain-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mule-domain-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="misc-flow" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -458,21 +831,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
+              <option name="myItemId" value="mule-domain-example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
+              <option name="myItemId" value="mule-domain-example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="con-flow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mule-domain-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mule-domain-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="con-flow" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -484,61 +879,57 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
+              <option name="myItemId" value="mule-domain-example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
+              <option name="myItemId" value="mule-domain-example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cci-flow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mule-domain-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mule-domain-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cci-flow" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
+              <option name="myItemId" value="mule-domain-example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
+              <option name="myItemId" value="mule-domain-example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -546,89 +937,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="edi-status-change-process" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edi-status-change-process" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edi-status-change-process" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edi9-domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edi-status-change-process" />
+              <option name="myItemId" value="cci-flow" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -646,6 +955,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -990,11 +1300,12 @@
       <workItem from="1431192319674" duration="2077000" />
       <workItem from="1431371094027" duration="3020000" />
       <workItem from="1431383797843" duration="11265000" />
+      <workItem from="1431526746095" duration="2353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94211000" />
+    <option name="totallyTimeSpent" value="96564000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1018,16 +1329,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="31" y="23" width="1404" height="817" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32904148" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32904148" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1041,11 +1351,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3120411" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3113069" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1075,10 +1386,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Con9/binding.xjb">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1069" max-vertical-offset="1845">
+          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,28 +1401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/edi-aggregation-process/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mule-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="4" column="38" selection-start-line="3" selection-start-column="108" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/canonical/AccountAssociationType.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="638">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$M2_REPO$/commons-dbcp/commons-dbcp/1.2.2/commons-dbcp-1.2.2.jar!/org/apache/commons/dbcp/BasicDataSource.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14681892" vertical-offset="0" max-vertical-offset="7305">
@@ -1118,39 +1408,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edi9-common/src/main/java/com/cox/automotive/edi9/util/ManheimEncryptor.java">
+    <entry file="file://$PROJECT_DIR$/domain-common/src/main/java/com/cox/automotive/edi9/util/ManheimEncryptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1612" max-vertical-offset="2265">
           <caret line="138" column="59" selection-start-line="138" selection-start-column="59" selection-end-line="138" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edi9-common/src/main/java/com/cox/automotive/edi9/util/BouncyCastleProviderAESCBC.java">
+    <entry file="file://$PROJECT_DIR$/domain-common/src/main/java/com/cox/automotive/edi9/util/BouncyCastleProviderAESCBC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1575">
           <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edi9-common/src/main/java/com/cox/automotive/edi9/util/PasswordDeriveBytes.java">
+    <entry file="file://$PROJECT_DIR$/domain-common/src/main/java/com/cox/automotive/edi9/util/PasswordDeriveBytes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
           <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/edi-aggregation-process/mule-project.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/edi-aggregation-process/src/main/java/com/cox/automotive/edi9/vo/ProvinceMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1158,224 +1433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edi9-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="249" max-vertical-offset="900">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/edi-aggregation-process/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="13" column="57" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Comp9/COMP9.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6060">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Con9/CON9.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4155">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Ctr9/CTR9.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1515">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Idf9/IDF9.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3465">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Iss/ISS9.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5655">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Iss/ISS_In.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4170">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Per9/Per9.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3720">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Prl9/PRL9.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1755">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Cba9/CBA9.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2490">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Cac9/CAC9.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1560">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Header9.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edi9-messages/src/main/resources/xsd/inbound/Cci9/CCI9.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06838906" vertical-offset="0" max-vertical-offset="7650">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/con9/AddressTypeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="377" max-vertical-offset="1290">
-          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#2589#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2245#2246#0" expanded="false" />
-            <element signature="e#2270#2271#0" expanded="false" />
-            <element signature="e#2299#2300#0" expanded="false" />
-            <element signature="e#2327#2328#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/con9/AddressVisibilityEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="840">
-          <caret line="51" column="39" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#1591#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1229#1230#0" expanded="false" />
-            <element signature="e#1254#1255#0" expanded="false" />
-            <element signature="e#1283#1284#0" expanded="false" />
-            <element signature="e#1311#1312#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edi9-messages/src/main/generated/com/cox/automotive/edi9/message/inbound/con9/AddressInformation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4442" max-vertical-offset="5340">
-          <caret line="381" column="33" selection-start-line="381" selection-start-column="33" selection-end-line="381" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#10064#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3296#3297#0" expanded="false" />
-            <element signature="e#3330#3331#0" expanded="false" />
-            <element signature="e#3559#3560#0" expanded="false" />
-            <element signature="e#3599#3600#0" expanded="false" />
-            <element signature="e#3640#3641#0" expanded="false" />
-            <element signature="e#3688#3689#0" expanded="false" />
-            <element signature="e#3887#3888#0" expanded="false" />
-            <element signature="e#3922#3923#0" expanded="false" />
-            <element signature="e#4135#4136#0" expanded="false" />
-            <element signature="e#4176#4177#0" expanded="false" />
-            <element signature="e#4218#4219#0" expanded="false" />
-            <element signature="e#4268#4269#0" expanded="false" />
-            <element signature="e#4467#4468#0" expanded="false" />
-            <element signature="e#4502#4503#0" expanded="false" />
-            <element signature="e#4715#4716#0" expanded="false" />
-            <element signature="e#4756#4757#0" expanded="false" />
-            <element signature="e#4798#4799#0" expanded="false" />
-            <element signature="e#4848#4849#0" expanded="false" />
-            <element signature="e#5035#5036#0" expanded="false" />
-            <element signature="e#5064#5065#0" expanded="false" />
-            <element signature="e#5265#5266#0" expanded="false" />
-            <element signature="e#5300#5301#0" expanded="false" />
-            <element signature="e#5336#5337#0" expanded="false" />
-            <element signature="e#5379#5380#0" expanded="false" />
-            <element signature="e#5562#5563#0" expanded="false" />
-            <element signature="e#5589#5590#0" expanded="false" />
-            <element signature="e#5786#5787#0" expanded="false" />
-            <element signature="e#5819#5820#0" expanded="false" />
-            <element signature="e#5853#5854#0" expanded="false" />
-            <element signature="e#5894#5895#0" expanded="false" />
-            <element signature="e#6079#6080#0" expanded="false" />
-            <element signature="e#6107#6108#0" expanded="false" />
-            <element signature="e#6306#6307#0" expanded="false" />
-            <element signature="e#6340#6341#0" expanded="false" />
-            <element signature="e#6375#6376#0" expanded="false" />
-            <element signature="e#6417#6418#0" expanded="false" />
-            <element signature="e#6612#6613#0" expanded="false" />
-            <element signature="e#6645#6646#0" expanded="false" />
-            <element signature="e#6854#6855#0" expanded="false" />
-            <element signature="e#6893#6894#0" expanded="false" />
-            <element signature="e#6933#6934#0" expanded="false" />
-            <element signature="e#6980#6981#0" expanded="false" />
-            <element signature="e#7169#7170#0" expanded="false" />
-            <element signature="e#7199#7200#0" expanded="false" />
-            <element signature="e#7402#7403#0" expanded="false" />
-            <element signature="e#7438#7439#0" expanded="false" />
-            <element signature="e#7475#7476#0" expanded="false" />
-            <element signature="e#7519#7520#0" expanded="false" />
-            <element signature="e#7738#7739#0" expanded="false" />
-            <element signature="e#7773#7774#0" expanded="false" />
-            <element signature="e#8006#8007#0" expanded="false" />
-            <element signature="e#8047#8048#0" expanded="false" />
-            <element signature="e#8089#8090#0" expanded="false" />
-            <element signature="e#8138#8139#0" expanded="false" />
-            <element signature="e#8373#8374#0" expanded="false" />
-            <element signature="e#8412#8413#0" expanded="false" />
-            <element signature="e#8661#8662#0" expanded="false" />
-            <element signature="e#8706#8707#0" expanded="false" />
-            <element signature="e#8752#8753#0" expanded="false" />
-            <element signature="e#8805#8806#0" expanded="false" />
-            <element signature="e#9337#9338#0" expanded="false" />
-            <element signature="e#9383#9384#0" expanded="false" />
-            <element signature="e#9430#9431#0" expanded="false" />
-            <element signature="e#9484#9485#0" expanded="false" />
-            <element signature="e#9683#9684#0" expanded="false" />
-            <element signature="e#9717#9718#0" expanded="false" />
-            <element signature="e#9930#9931#0" expanded="false" />
-            <element signature="e#9970#9971#0" expanded="false" />
-            <element signature="e#10011#10012#0" expanded="false" />
-            <element signature="e#10059#10060#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1383,7 +1440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="885">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,7 +1447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13931888" vertical-offset="0" max-vertical-offset="646">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,7 +1454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13931888" vertical-offset="0" max-vertical-offset="646">
           <caret line="9" column="15" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1407,19 +1461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5450237" vertical-offset="15" max-vertical-offset="3075">
           <caret line="27" column="27" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/edi-status-change-process/src/main/java/com/cox/automotive/util/OvcUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="377" max-vertical-offset="1050">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1427,7 +1468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="690">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1435,7 +1475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <caret line="20" column="78" selection-start-line="12" selection-start-column="8" selection-end-line="20" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1443,7 +1482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="671">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1451,29 +1489,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="6555">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/edi-status-change-process/pom.xml">
+    <entry file="file://$PROJECT_DIR$/.project">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2044" max-vertical-offset="2895">
-          <caret line="15" column="77" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1890">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1481,50 +1502,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1069" max-vertical-offset="1845">
-          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+        <state vertical-scroll-proportion="-4.64" vertical-offset="754" max-vertical-offset="1680">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edi9-messages/pom.xml">
+    <entry file="file://$PROJECT_DIR$/domain-bundle/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1639" max-vertical-offset="5355">
-          <caret line="326" column="38" selection-start-line="326" selection-start-column="38" selection-end-line="326" selection-end-column="38" />
+        <state vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="1950">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/edi-aggregation-process/src/main/app/edi-aggregation-process.xml">
+    <entry file="file://$PROJECT_DIR$/domain/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7523365" vertical-offset="975" max-vertical-offset="1695">
-          <caret line="15" column="164" selection-start-line="15" selection-start-column="164" selection-end-line="15" selection-end-column="164" />
+        <state vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="1890">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/edi-aggregation-process/src/main/java/com/cox/automotive/transformer/ComCanonicalTransformer.java">
+    <entry file="file://$PROJECT_DIR$/apps/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1995">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/edi-status-change-process/src/main/app/edi-status-change-process.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1965">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state vertical-scroll-proportion="-7.8" vertical-offset="0" max-vertical-offset="2925">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/edi-status-change-process/src/main/java/com/cox/automotive/vo/IncomingMessageVO.java">
+    <entry file="file://$PROJECT_DIR$/domain-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="900">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mule-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/cci-flow/src/main/app/mule-deploy.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+          <caret line="0" column="46" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/con-flow/src/main/app/mule-deploy.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="416">
+          <caret line="0" column="46" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/misc-flow/src/main/app/mule-deploy.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="416">
+          <caret line="0" column="46" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
           <folding />
         </state>
       </provider>

@@ -22,12 +22,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="cci-flow" />
+        <module name="con-flow" />
         <module name="edi-aggregation-process" />
         <module name="edi-status-change-process" />
         <module name="edi9-common" />
         <module name="edi9-domain-domain (1) (com.cox.automotive.edi9.bundle)" />
         <module name="edi9-domain-domain (2) (com.cox.automotive.edi9)" />
         <module name="edi9-messages" />
+        <module name="misc-flow" />
         <module name="mule-common" />
       </profile>
     </annotationProcessing>

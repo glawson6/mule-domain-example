@@ -2,8 +2,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>mule-taptech-domain</artifactId>
-    <groupId>com.taptech.mule</groupId>
+        <groupId>com.taptech.mule</groupId>
+        <artifactId>mule-domain-example</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -11,15 +11,13 @@
     <groupId>com.taptech.mule</groupId>
 
     <packaging>pom</packaging>
-    <name>Domain edi9-domain Applications</name>
+    <name>Domain mule-domain-example Applications</name>
 
     <modules>
         <!-- include here the mule applications that belong to the domain -->
         <module>con-flow</module>
         <module>cci-flow</module>
         <module>misc-flow</module>
-        <module>edi-aggregation-process</module>
-        <module>edi-status-change-process</module>
     </modules>
 
 

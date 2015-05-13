@@ -27,37 +27,27 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
-  <component name="EntryPointsManager">
-    <entry_points version="2.0" />
-  </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/../../../../tmp/jhipster" value="7136442650000" />
-        <entry key="$PROJECT_DIR$/../../../../tmp/useGrunt" value="7136445385000" />
-        <entry key="$PROJECT_DIR$/../../../CodeExamples/guestbook" value="1427038369000" />
-        <entry key="$PROJECT_DIR$/../../../SpringRuleEngine" value="1413678503000" />
-        <entry key="$PROJECT_DIR$/../../../mits/MITSESB" value="30761258889000" />
-        <entry key="$PROJECT_DIR$/../../../ttis/spoonscore" value="5709098198000" />
-        <entry key="$PROJECT_DIR$/../../../ttis/spoonscore-all" value="8563500003000" />
-        <entry key="$PROJECT_DIR$/../../../ttis/tmp/helloworld" value="1426989573000" />
-        <entry key="$PROJECT_DIR$/../../../wdi/homework/js/java-js-maven" value="8552486475000" />
+        <entry key="$PROJECT_DIR$/../../../tmp/jhipster" value="7136442650000" />
+        <entry key="$PROJECT_DIR$/../../../tmp/useGrunt" value="7136445385000" />
+        <entry key="$PROJECT_DIR$/../../CodeExamples/guestbook" value="1427038369000" />
+        <entry key="$PROJECT_DIR$/../../SpringRuleEngine" value="1413678503000" />
+        <entry key="$PROJECT_DIR$/../../mits/MITSESB" value="30761258889000" />
+        <entry key="$PROJECT_DIR$/../spoonscore" value="5709098198000" />
+        <entry key="$PROJECT_DIR$/../spoonscore-all" value="8563500003000" />
+        <entry key="$PROJECT_DIR$/../tmp/helloworld" value="1426989573000" />
+        <entry key="$PROJECT_DIR$/../../wdi/homework/js/java-js-maven" value="8552486475000" />
       </map>
     </option>
   </component>
-  <component name="IdProvider" IDEtalkID="6AD0EE6F59FBFCDB04C4BEE98290C5C9" />
+  <component name="IdProvider" IDEtalkID="67E04C18BC1C0A1BE042A98287CD3B15" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/apps/cci-flow/pom.xml" />
-        <option value="$PROJECT_DIR$/apps/con-flow/pom.xml" />
-        <option value="$PROJECT_DIR$/apps/misc-flow/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -90,7 +80,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../software/mule-standalone-3.6.1/lib/user" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../software/mule-standalone-3.6.1/lib/user" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -206,49 +196,49 @@
   <component name="libraryTable">
     <library name="mule-boot">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/../../../../software/mule-standalone-3.6.1/lib/boot" />
+        <root url="file://$PROJECT_DIR$/../../../software/mule-standalone-3.6.1/lib/boot" />
       </CLASSES>
       <JAVADOC />
       <NATIVE>
-        <root url="file://$PROJECT_DIR$/../../../../software/mule-standalone-3.6.1/lib/boot" />
+        <root url="file://$PROJECT_DIR$/../../../software/mule-standalone-3.6.1/lib/boot" />
       </NATIVE>
       <SOURCES />
-      <jarDirectory url="file://$PROJECT_DIR$/../../../../software/mule-standalone-3.6.1/lib/boot" recursive="false" />
+      <jarDirectory url="file://$PROJECT_DIR$/../../../software/mule-standalone-3.6.1/lib/boot" recursive="false" />
     </library>
     <library name="mule-endorsed">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/../../../../software/mule-standalone-3.6.1/lib/endorsed" />
+        <root url="file://$PROJECT_DIR$/../../../software/mule-standalone-3.6.1/lib/endorsed" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
-      <jarDirectory url="file://$PROJECT_DIR$/../../../../software/mule-standalone-3.6.1/lib/endorsed" recursive="false" />
+      <jarDirectory url="file://$PROJECT_DIR$/../../../software/mule-standalone-3.6.1/lib/endorsed" recursive="false" />
     </library>
     <library name="mule-opt">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/../../../../software/mule-standalone-3.6.1/lib/opt" />
+        <root url="file://$PROJECT_DIR$/../../../software/mule-standalone-3.6.1/lib/opt" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="file://$PROJECT_DIR$/../../../../software/mule-standalone-3.6.1/lib/opt" />
+        <root url="file://$PROJECT_DIR$/../../../software/mule-standalone-3.6.1/lib/opt" />
       </SOURCES>
-      <jarDirectory url="file://$PROJECT_DIR$/../../../../software/mule-standalone-3.6.1/lib/opt" recursive="false" />
-      <jarDirectory url="file://$PROJECT_DIR$/../../../../software/mule-standalone-3.6.1/lib/opt" recursive="false" type="SOURCES" />
+      <jarDirectory url="file://$PROJECT_DIR$/../../../software/mule-standalone-3.6.1/lib/opt" recursive="false" />
+      <jarDirectory url="file://$PROJECT_DIR$/../../../software/mule-standalone-3.6.1/lib/opt" recursive="false" type="SOURCES" />
     </library>
     <library name="mule-standard-runtime">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/../../../../software/mule-standalone-3.6.1/lib/mule" />
+        <root url="file://$PROJECT_DIR$/../../../software/mule-standalone-3.6.1/lib/mule" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
-      <jarDirectory url="file://$PROJECT_DIR$/../../../../software/mule-standalone-3.6.1/lib/mule" recursive="false" />
+      <jarDirectory url="file://$PROJECT_DIR$/../../../software/mule-standalone-3.6.1/lib/mule" recursive="false" />
     </library>
     <library name="mule-user">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/../../../../software/mule-standalone-3.6.1/lib/user" />
+        <root url="file://$PROJECT_DIR$/../../../software/mule-standalone-3.6.1/lib/user" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
-      <jarDirectory url="file://$PROJECT_DIR$/../../../../software/mule-standalone-3.6.1/lib/user" recursive="false" />
+      <jarDirectory url="file://$PROJECT_DIR$/../../../software/mule-standalone-3.6.1/lib/user" recursive="false" />
     </library>
   </component>
   <component name="masterDetails">

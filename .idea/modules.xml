@@ -2,25 +2,30 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/apps/apps.iml" filepath="$PROJECT_DIR$/apps/apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/cci-flow/cci-flow.iml" filepath="$PROJECT_DIR$/apps/cci-flow/cci-flow.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/apps/cci-flow/cci-flow.iml" filepath="$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/apps/cci-flow/cci-flow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/con-flow/con-flow.iml" filepath="$PROJECT_DIR$/apps/con-flow/con-flow.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/apps/con-flow/con-flow.iml" filepath="$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/apps/con-flow/con-flow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain-bundle/domain-bundle.iml" filepath="$PROJECT_DIR$/domain-bundle/domain-bundle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain-common/domain-common.iml" filepath="$PROJECT_DIR$/domain-common/domain-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/edi-aggregation-process/edi-aggregation-process.iml" filepath="$PROJECT_DIR$/apps/edi-aggregation-process/edi-aggregation-process.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/apps/edi-aggregation-process/edi-aggregation-process.iml" filepath="$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/apps/edi-aggregation-process/edi-aggregation-process.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/edi-status-change-process/edi-status-change-process.iml" filepath="$PROJECT_DIR$/apps/edi-status-change-process/edi-status-change-process.iml" />
-      <module fileurl="file://$PROJECT_DIR$/edi9-common/edi9-common.iml" filepath="$PROJECT_DIR$/edi9-common/edi9-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/edi9-common/edi9-common.iml" filepath="$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/edi9-common/edi9-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/edi9-domain.iml" filepath="$PROJECT_DIR$/edi9-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/edi9-domain.iml" filepath="$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/edi9-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/edi9-domain-apps.iml" filepath="$PROJECT_DIR$/apps/edi9-domain-apps.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/apps/edi9-domain-apps.iml" filepath="$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/apps/edi9-domain-apps.iml" />
-      <module fileurl="file://$PROJECT_DIR$/domain-bundle/edi9-domain-domain (1) (com.cox.automotive.edi9.bundle).iml" filepath="$PROJECT_DIR$/domain-bundle/edi9-domain-domain (1) (com.cox.automotive.edi9.bundle).iml" />
       <module fileurl="file://$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/domain-bundle/edi9-domain-domain (1) (com.cox.automotive.edi9.bundle).iml" filepath="$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/domain-bundle/edi9-domain-domain (1) (com.cox.automotive.edi9.bundle).iml" />
-      <module fileurl="file://$PROJECT_DIR$/domain/edi9-domain-domain (2) (com.cox.automotive.edi9).iml" filepath="$PROJECT_DIR$/domain/edi9-domain-domain (2) (com.cox.automotive.edi9).iml" />
       <module fileurl="file://$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/domain/edi9-domain-domain (2) (com.cox.automotive.edi9).iml" filepath="$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/domain/edi9-domain-domain (2) (com.cox.automotive.edi9).iml" />
-      <module fileurl="file://$PROJECT_DIR$/edi9-messages/edi9-messages.iml" filepath="$PROJECT_DIR$/edi9-messages/edi9-messages.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/edi9-messages/edi9-messages.iml" filepath="$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/edi9-messages/edi9-messages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/misc-flow/misc-flow.iml" filepath="$PROJECT_DIR$/apps/misc-flow/misc-flow.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/apps/misc-flow/misc-flow.iml" filepath="$PROJECT_DIR$/../mulesoft.singlepipe/edi9-domain/apps/misc-flow/misc-flow.iml" />
       <module fileurl="file://$PROJECT_DIR$/mule-common/mule-common.iml" filepath="$PROJECT_DIR$/mule-common/mule-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mule-common/mule-common.iml" filepath="$PROJECT_DIR$/mule-common/mule-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mule-domain-example.iml" filepath="$PROJECT_DIR$/mule-domain-example.iml" />
     </modules>
   </component>
 </project>

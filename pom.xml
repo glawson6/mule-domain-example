@@ -39,35 +39,24 @@
         <module>domain</module>
         <module>apps</module>
         <module>domain-bundle</module>
-		<module>edi9-messages</module>
-        <module>edi9-common</module>
+        <module>domain-common</module>
         <module>mule-common</module>
     </modules>
 
     <repositories>
         <repository>
-            <id>Central</id>
-            <name>repo</name>
-            <url>https://artifactory.aws-dev.manheim.com/artifactory/repo</url>
-            <layout>default</layout>
+            <id>mulesoft-releases</id>
+            <name>MuleSoft Releases</name>
+            <url>https://repository.mulesoft.org/nexus/content/repositories/releases</url>
+        </repository>
+        <repository>
+            <id>mulesoft-snapshots</id>
+            <name>MuleSoft Releases</name>
+            <url>https://repository.mulesoft.org/nexus/content/repositories/public</url>
         </repository>
     </repositories>
 
     <pluginRepositories>
-        <pluginRepository>
-            <id>Central</id>
-            <name>repo</name>
-            <url>https://artifactory.aws-dev.manheim.com/artifactory/repo</url>
-            <layout>default</layout>
-            <!--
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <releases>
-                <updatePolicy>never</updatePolicy>
-            </releases>
-            -->
-        </pluginRepository>
 		<pluginRepository>
             <id>mulesoft-release</id>
             <name>mulesoft release repository</name>

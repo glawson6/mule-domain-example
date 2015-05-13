@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>com.cox.automotive.edi9</groupId>
-        <artifactId>edi9-domain</artifactId>
+        <groupId>com.taptech.mule</groupId>
+        <artifactId>mule-domain-example</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.cox.automotive.edi9</groupId>
-    <artifactId>edi9-domain-domain</artifactId>
+    <groupId>com.taptech.mule.domain.config</groupId>
+    <artifactId>mule-domain-example-config</artifactId>
     <packaging>mule-domain</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>Domain edi9-domain Project</name>
+    <name>Mule Domain Project</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
